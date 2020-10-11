@@ -25,6 +25,8 @@ public class SearchFragment extends Fragment {
     private SearchViewModel viewModel;
     private FragmentSearchBinding binding;
 
+    public SearchFragment(){}
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
